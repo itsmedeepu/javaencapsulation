@@ -62,7 +62,7 @@ import java.util.Scanner;
 				 System.out.println("Enter watch color");
 				 String color=sc.next();
 				w= new WatchDetails(name,price,color);
-				 w.DisplayWatch();
+				System.out.println("Watch added sucessfully");
 				 System.out.println("*******************");	 
 			 }
 			 break;
